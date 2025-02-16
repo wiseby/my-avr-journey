@@ -1,10 +1,9 @@
-
 ##########------------------------------------------------------##########
 ##########              Project-specific Details                ##########
 ##########    Check these every time you start a new project    ##########
 ##########------------------------------------------------------##########
 
-MCU   = m328
+MCU   = atmega328
 F_CPU = 8000000UL  
 BAUD  = 9600UL
 ## Also try BAUD = 19200 or 38400 if you're feeling lucky.
@@ -163,8 +162,8 @@ flash_109: flash
 ##########------------------------------------------------------##########
 
 ## Mega 48, 88, 168, 328 default values
-LFUSE = 0x62
-HFUSE = 0xdf
+LFUSE = 0xE2
+HFUSE = 0xDF
 EFUSE = 0x00
 
 ## Generic 
